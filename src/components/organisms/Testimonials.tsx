@@ -73,13 +73,13 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="w-full lg:w-1/2 relative">
-            <div className="relative h-80 lg:h-96">
+          <div className="w-full lg:w-1/2 flex justify-center mt-[-40px]">
+            <div className="relative h-80 lg:h-150">
               <Image
                 src="/chef-ok.png"
                 alt="Happy chef making OK gesture"
-                width={500}
-                height={500}
+                width={700}
+                height={700}
                 className="object-contain"
                 priority
               />
